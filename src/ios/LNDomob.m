@@ -23,7 +23,7 @@
     playingCompleted = NO;
     errorMessage = @"";
     
-    [videoManager presentIndependentVideo];
+    [videoManager presentIndependentVideoWithViewController:self.viewController];
 }
 
 - (void) checkVideoAvailable:(CDVInvokedUrlCommand*)command
