@@ -76,7 +76,7 @@ failedLoadWithError:(NSError *)error {
         CDVPluginResult* result = [CDVPluginResult
                                    resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dict];
         
-        [self.commandDelegate sendPluginResult:result callbackId:checkVideoCB];
+        [self.commandDelegate sendPluginResult:result callbackId:playVideoCB];
     }];
 }
 
